@@ -1,0 +1,50 @@
+### Prepare Metadata
+POST http://127.0.0.1:8089/ios/prepare
+Content-Type: application/json
+
+{
+  "name": "DreamApp",
+  "bundle_id": "com.tshepo.dream",
+  "version": "1.0.0",
+  "release_notes": "Initial build"
+}
+
+### Upload via URL
+POST http://127.0.0.1:8089/ios/upload
+Accept: application/json
+Content-Type: multipart/form-data; boundary=boundary
+
+--boundary
+Content-Disposition: form-data; name="url"
+
+https://example.com/dreamapp.ipa
+--boundary--
+
+### TestFlight
+POST http://127.0.0.1:8089/ios/testflight
+Content-Type: application/json
+
+{
+  "beta_info": "v1 Test",
+  "testers": ["qa@milkbox.ai"],
+  "submit_external": true
+}
+
+### Submit for review
+POST http://127.0.0.1:8089/ios/submit
+Accept: application/json
+Content-Type: multipart/form-data; boundary=boundary
+
+--boundary
+Content-Disposition: form-data; name="bundle_id"
+
+com.tshepo.dream
+--boundary
+Content-Disposition: form-data; name="notes"
+
+Ready for review submission
+--boundary--
+
+### Check latest status
+GET http://127.0.0.1:8089/ios/status/com.tshepo.dream
+Accept: application/json

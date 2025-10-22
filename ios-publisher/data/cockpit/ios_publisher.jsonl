@@ -1,0 +1,13 @@
+{"ts": "2025-10-19T15:39:51.447645+00:00", "user": "local-dev", "tool": "ios-publisher", "action": "startup", "payload": {"status": "ok"}}
+{"ts": "2025-10-19T15:40:12.041308+00:00", "user": "local-dev", "tool": "ios-publisher", "action": "ios.prepare", "payload": {"name": "DreamApp", "bundle_id": "com.example.dream", "version": "1.0.0", "release_notes": "Initial release"}}
+{"ts": "2025-10-22T05:42:29.771060+00:00", "user": "local-dev", "tool": "ios-publisher", "action": "startup", "payload": {"status": "ok"}}
+{"ts": "2025-10-22T05:42:31.642067+00:00", "user": "local-dev", "tool": "ios-publisher", "action": "startup", "payload": {"status": "ok"}}
+{"ts": "2025-10-22T05:43:03.646945+00:00", "user": "local-dev", "tool": "ios-publisher", "action": "ios.prepare", "payload": {"name": "DreamApp", "bundle_id": "com.example.dream", "version": "1.0.0", "release_notes": "Initial release"}}
+{"ts": "2025-10-22T05:57:26.850998+00:00", "action": "ios.prepare", "payload": {"name": "DreamApp", "bundle_id": "com.tshepo.dream", "version": "1.0.0", "release_notes": "Initial build"}}
+{"ts": "2025-10-22T05:57:45.179217+00:00", "action": "ios.testflight", "payload": {"beta_info": "v1 Test", "testers": ["qa@milkbox.ai"], "submit_external": true}}
+{"ts": "2025-10-22T05:57:56.301708+00:00", "action": "ios.status", "payload": {"bundle_id": "com.tshepo.dream", "status": "pending"}}
+{"ts": "2025-10-22T06:06:54.606251+00:00", "action": "ios.prepare", "payload": {"name": "DreamApp", "bundle_id": "com.tshepo.dream", "version": "1.0.0", "release_notes": "Initial build"}}
+{"ts": "2025-10-22T06:06:58.979027+00:00", "action": "ios.upload", "payload": {"file": null, "url": "https://example.com/dreamapp.ipa"}}
+{"ts": "2025-10-22T06:07:06.027986+00:00", "action": "ios.testflight", "payload": {"beta_info": "v1 Test", "testers": ["qa@milkbox.ai"], "submit_external": true}}
+{"ts": "2025-10-22T06:07:10.116876+00:00", "action": "ios.submit", "payload": {"bundle_id": "com.tshepo.dream", "notes": "Ready for review submission"}}
+{"ts": "2025-10-22T06:07:14.873565+00:00", "action": "ios.status", "payload": {"bundle_id": "com.tshepo.dream", "status": "pending"}}
