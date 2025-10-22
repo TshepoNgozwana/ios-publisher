@@ -11,3 +11,8 @@
 {"ts": "2025-10-22T06:07:06.027986+00:00", "action": "ios.testflight", "payload": {"beta_info": "v1 Test", "testers": ["qa@milkbox.ai"], "submit_external": true}}
 {"ts": "2025-10-22T06:07:10.116876+00:00", "action": "ios.submit", "payload": {"bundle_id": "com.tshepo.dream", "notes": "Ready for review submission"}}
 {"ts": "2025-10-22T06:07:14.873565+00:00", "action": "ios.status", "payload": {"bundle_id": "com.tshepo.dream", "status": "pending"}}
+{"ts": "2025-10-22T06:49:30.896517+00:00", "action": "ios.prepare", "payload": {"name": "DreamApp", "bundle_id": "com.tshepo.dream", "version": "1.0.0", "release_notes": "Initial build"}}
+{"ts": "2025-10-22T06:49:38.239123+00:00", "action": "ios.upload", "payload": {"file": null, "url": "https://example.com/dreamapp.ipa"}}
+{"ts": "2025-10-22T06:49:42.187590+00:00", "action": "ios.testflight", "payload": {"beta_info": "v1 Test", "testers": ["qa@milkbox.ai"], "submit_external": true}}
+{"ts": "2025-10-22T06:49:45.923767+00:00", "action": "ios.submit", "payload": {"bundle_id": "com.tshepo.dream", "notes": "Ready for review submission"}}
+{"ts": "2025-10-22T06:49:48.327285+00:00", "action": "ios.status", "payload": {"bundle_id": "com.tshepo.dream", "status": "pending"}}
